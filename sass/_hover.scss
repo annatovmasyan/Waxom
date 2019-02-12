@@ -1,0 +1,101 @@
+@media only screen and (min-width: 768px) {
+  .menu .menu__item .menu__link:hover {
+    color: $hover-color;
+  }
+
+  .cart-icon:hover:before,
+  .search-icon:hover:before {
+    opacity: 0;
+  }
+
+  .cart-icon:hover:after,
+  .search-icon:hover:after {
+    opacity: 1;
+  }
+
+  .btn:hover {
+    background-color: #736357;
+  }
+
+  .services__department--design:hover:before {
+    background-position: 0 -75px;
+  }
+
+  .services__department--development:hover:before {
+    background-position: -58px -75px;
+  }
+
+  .services__department--customization:hover:before {
+    background-position: -116px -75px;
+  }
+
+  .services__department--marketing:hover:before {
+    background-position: -174px -75px;
+  }
+
+  .services__department:hover .services__department--title {
+    color: $hover-color;
+  }
+
+  .services__department:hover:after {
+    background-color: $hover-color;
+  }
+
+  .categories .categories__item .categories__link:hover {
+    background-color: #998675;
+    color: $white;
+  }
+
+  .image-link:hover .pic-box:after {
+    opacity: 1;
+  }
+
+  .image-link:hover .text-box:before {
+    border-color: transparent transparent #362f2d transparent;
+  }
+
+  .image-link:hover .text-box {
+    background-color: #362f2d;
+  }
+
+  .image-link:hover .text-box .image-info {
+    color: $white;
+  }
+
+  .image-link:hover .text-box .image-about {
+    color: $hover-color;
+  }
+
+  .about-waxom-link:hover {
+    color: $hover-color;
+  }
+
+  .about-waxom-link:hover:after {
+    border-color: transparent transparent transparent $hover-color;
+    -webkit-animation: arrow .2s ease-in;
+  }
+
+  .recent-posts:hover .post .post-link .data {
+    color: #363636;
+  }
+
+  .recent-posts:hover .post .post-link .recent-text {
+    color: $light-grey;
+  }
+
+  .recent-posts .post .post-link:hover  .data{
+    color: $white;
+  }
+
+  .recent-posts .post .post-link:hover .recent-text{
+    color: $hover-color;
+  }
+
+  .footer-link:hover,
+  .footer-link-right:hover {
+    color: $link-hover;
+  }
+
+
+}
+
